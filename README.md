@@ -1,7 +1,14 @@
 # CI-CD-GitHub-Actions
 This repository is created a CI/CD pipeline using GitHub Actions for Heroku Cloud platform
 
-9. Create CI/CD Pipeline through `GitHub Actions`
+1. Create yaml file through github for some scripting link: https://github.com/marketplace/actions/build-push-and-release-a-docker-container-to-heroku
+```
+mkdir .github
+mkdir .github/workflows
+touch .github/workflows/main.yaml
+```
+
+2. Create CI/CD Pipeline through `GitHub Actions`
 ```
 open GitHub Project -> Settings -> Secrets -> Actions -> New repository secret
 Name: HEROKU_EMAIL
@@ -11,5 +18,5 @@ Value: Key_vale
 Name: HEROKU_APP_NAME
 Value: App_name
 ```
-Workflow: 
+# Workflow: 
 code -> GitHub -> GitHub Actions -> Heroku Cloud
