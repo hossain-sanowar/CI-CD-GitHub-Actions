@@ -20,3 +20,5 @@ Value: App_name
 ```
 # Workflow: 
 code -> GitHub -> GitHub Actions -> Heroku Cloud
+
+![outcome](readme_resources/ci-cd-GitHub-Actions.png)
